@@ -1,18 +1,19 @@
-# ZagrebControlSeminar
+# Zagreb Control Seminar
 Zagreb Control Seminar (ZCS)
 
 
 TODO:
-1. Definirati tocni datum (CVOK i SVEC) doodle 
-2. Prebaciti stranicu na organizacijski git
-3. Rezervirati FER sobu 
-4. Rezervirti Fakin 
-5. Dopuniti stranicu s abstractom i predavacima
-6. Napisati objavu za Linkedin 
-7. Napisati sluzbeni email za zeljene profesore
-8. Snimanje predavanja ili streamanje(youtube) - dogovorit opremu. (CHALMERS)
-9. google form za prijavu
-10. google account za form i youtube
+
+- [ ] Definirati tocni datum (CVOK i SVEC) doodle 
+- [x] Prebaciti stranicu na organizacijski git
+- [ ] Rezervirati FER sobu 
+- [ ] Rezervirti Fakin 
+- [ ] Dopuniti stranicu s abstractom i predavacima
+- [ ] Napisati objavu za Linkedin 
+- [ ] Napisati sluzbeni email za zeljene profesore
+- [ ] Snimanje predavanja ili streamanje(youtube) - dogovorit opremu. (CHALMERS)
+- [ ] google form za prijavu
+- [x] google account za form i youtube
 
 
 13.09 - OBJAVA
