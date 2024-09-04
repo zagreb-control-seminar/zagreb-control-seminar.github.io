@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 16px; /* Base font size */
+}
+
+html {
+    font-size: 100%; /* 1rem = 16px */
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 2rem; /* Responsive header font size */
+}
+
+.seminar-overview {
+    padding: 1em;
+    background-color: #fff;
+    margin: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.seminar-overview p {
+    margin: 10px 0;
+    color: #000;
+    text-align: justify;
+    font-size: 1.25rem; /* Responsive overview font size */
+}
+
+.register-link {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.25rem; /* Responsive register link font size */
+}
+
+.register-link:hover {
+    background-color: #0056b3;
+}
+
+.seminar-schedule {
+    padding: 1em;
+    background-color: #fff;
+    margin: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.seminar {
+    background-color: #e9ecef;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.seminar h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.75rem; /* Responsive seminar title font size */
+}
+
+.seminar p {
+    margin: 5px 0;
+    color: #555;
+    text-align: justify;
+    font-size: 1.25rem; /* Responsive seminar paragraph font size */
+}
+
+.logo {
+    width: 100%;
+    max-width: 600px; /* Increase max-width of logo */
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: auto;
+    font-size: 1.25rem; /* Responsive footer font size */
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 90%; /* 1rem = 14.4px */
+    }
+}
+
+@media (max-width: 992px) {
+    html {
+        font-size: 80%; /* 1rem = 12.8px */
+    }
+}
+
+@media (max-width: 768px) {
+    .seminar-overview {
+        margin: 0.5em;
+        padding: 0.5em;
+    }
+
+    .seminar-schedule {
+        margin: 0.5em;
+        padding: 0.5em;
+    }
+
+    .seminar {
+        padding: 0.5em;
+    }
+
+    .logo {
+        max-width: 500px; /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 70%; /* 1rem = 11.2px */
+    }
+
+    .seminar-overview {
+        margin: 0.25em;
+        padding: 0.25em;
+    }
+
+    .seminar-schedule {
+        margin: 0.25em;
+        padding: 0.25em;
+    }
+
+    .seminar {
+        padding: 0.25em;
+    }
+
+    .logo {
+        max-width: 300px; /* Adjust for smaller screens */
+    }
+}
