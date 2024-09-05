@@ -88,25 +88,17 @@ header {
 .speaker-photo {
     width: 200px; /* Width for better alignment with text */
     height: auto;
-    border-radius: 10%; /* Make the photo circular */
+    border-radius: 10%; /* Make the photo rounded */
     margin-right: 30px; /* Space between image and text */
     margin-top: 20px; /* Move the image lower to align with the text */
     flex-shrink: 0; /* Prevent the image from shrinking */
 }
-
 
 .seminar-text {
     flex: 1; /* Allow text to take up remaining space */
 }
 
 .seminar p, .seminar-text p {
-    margin: 10px 0; /* Increase margin for better spacing */
-    color: #555;
-    text-align: justify;
-    font-size: 1.1rem; /* Slightly smaller font for more text */
-}
-
-.seminar p {
     margin: 10px 0; /* Increase margin for better spacing */
     color: #555;
     text-align: justify;
@@ -144,6 +136,22 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .seminar-content {
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center; /* Center items on mobile */
+    }
+
+    .speaker-photo {
+        width: 150px; /* Reduce image width on smaller screens */
+        margin-right: 0; /* Remove right margin for mobile */
+        margin-bottom: 20px; /* Add bottom margin for spacing */
+        margin-top: 0; /* Reset top margin */
+    }
+
+    .seminar-text {
+        text-align: center; /* Center text on mobile for better readability */
+    }
+
     .seminar-overview {
         margin: 0.5em;
         padding: 0.5em;
@@ -166,6 +174,10 @@ footer {
 @media (max-width: 480px) {
     html {
         font-size: 70%; /* 1rem = 11.2px */
+    }
+
+    .seminar-content {
+        flex-direction: column; /* Ensure content stacks vertically on small screens */
     }
 
     .seminar-overview {
