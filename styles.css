@@ -80,11 +80,37 @@ header {
     font-size: 1.75rem; /* Responsive seminar title font size */
 }
 
-.seminar p {
-    margin: 5px 0;
+.seminar-content {
+    display: flex;
+    align-items: flex-start; /* Align items to the start for image and text alignment */
+}
+
+.speaker-photo {
+    width: 200px; /* Width for better alignment with text */
+    height: auto;
+    border-radius: 10%; /* Make the photo circular */
+    margin-right: 30px; /* Space between image and text */
+    margin-top: 20px; /* Move the image lower to align with the text */
+    flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+
+.seminar-text {
+    flex: 1; /* Allow text to take up remaining space */
+}
+
+.seminar p, .seminar-text p {
+    margin: 10px 0; /* Increase margin for better spacing */
     color: #555;
     text-align: justify;
-    font-size: 1.25rem; /* Responsive seminar paragraph font size */
+    font-size: 1.1rem; /* Slightly smaller font for more text */
+}
+
+.seminar p {
+    margin: 10px 0; /* Increase margin for better spacing */
+    color: #555;
+    text-align: justify;
+    font-size: 1.1rem; /* Slightly smaller font for more text */
 }
 
 .logo {
