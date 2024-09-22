@@ -6,11 +6,12 @@ TODO:
 - [x] Rezervirati FER sobu 
 - [ ] Rezervirati Fakin
 - [x] Dopuniti stranicu s abstractom i predavacima
-- [ ] Napisati objavu za Linkedin 
+- [x] Napisati objavu za Linkedin 
 - [ ] Napisati sluzbeni email za profesore
 - [ ] Snimanje predavanja ili streamanje (youtube) - dogovoriti opremu. (CHALMERS)
 - [x] google form za prijavu
 - [x] google account za form i youtube
+- [ ] Linkedin stranica
 
 DATUMI:
 1. 18.10. ili 25.10. -> 25.10.
