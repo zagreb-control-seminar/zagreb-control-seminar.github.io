@@ -1,7 +1,7 @@
 # Zagreb Control Seminar
 
 TODO:
-- [x] Definirati tocni datum (CVOK i SVEC) doodle 
+- [x] Definirati tocni datum
 - [x] Prebaciti stranicu na organizacijski git
 - [x] Rezervirati FER sobu 
 - [ ] Rezervirati Fakin
