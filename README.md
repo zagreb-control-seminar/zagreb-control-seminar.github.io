@@ -1,20 +1,21 @@
 # Zagreb Control Seminar
 
 TODO:
-- [x] Definirati tocni datum
-- [x] Prebaciti stranicu na organizacijski git
-- [x] Rezervirati FER sobu 
-- [x] Rezervirati Fakin
-- [x] Dopuniti stranicu s abstractom i predavacima
-- [x] Napisati objavu za Linkedin 
-- [ ] Napisati sluzbeni email za profesore
-- [ ] mailing lista
-- [ ] Snimanje predavanja ili streamanje (youtube) - dogovoriti opremu. (CHALMERS)
-- [x] google form za prijavu
+- [x] definirati tocni datum
 - [x] google account za form i youtube
-- [ ] Linkedin stranica
+- [x] google form za prijavu
+- [x] prebaciti stranicu na organizacijski git
+- [x] rezervirati FER sobu 
+- [x] rezervirati Fakin
+- [x] dopuniti stranicu s abstractom i predavacima
+- [x] napisati objavu za Linkedin
+- [x] sastaviti mailing listu
+- [x] napisati sluzbeni email za profesore
+- [ ] obavijesti ferweb i fsb
+- [ ] snimanje predavanja ili streamanje (youtube) - dogovoriti opremu
+- [ ] linkedin - zasebna stranica
 - [ ] IEEE objava
-- [ ] ferweb objave (fsb?)
+- [ ] predavaci za 2. event
 
 DATUMI:
 1. 18.10. ili 25.10. -> 25.10.
