@@ -11,8 +11,8 @@ TODO:
 - [x] napisati objavu za Linkedin
 - [x] sastaviti mailing listu
 - [x] napisati sluzbeni email za profesore
-- [ ] obavijesti ferweb i fsb
-- [ ] snimanje predavanja ili streamanje (youtube) - dogovoriti opremu
+- [x] obavijesti ferweb i fsb
+- [x] snimanje predavanja ili streamanje (youtube) - dogovoriti opremu
 - [ ] linkedin - zasebna stranica
 - [ ] IEEE objava
 - [ ] predavaci za 2. event

@@ -24,7 +24,37 @@ header {
     color: #fff;
     padding: 1em 0;
     text-align: center;
-    font-size: 2rem; /* Responsive header font size */
+    font-size: 2rem;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.header-text {
+    margin-bottom: 1em;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header-text h2 {
+    margin: 0.5em 0 0;
+    font-size: 1.5rem;
+}
+
+.header-logo {
+    max-width: 200px; /* Adjust this value as needed */
+    max-height: 100px; /* Adjust this value as needed */
+    width: auto;
+    height: auto;
 }
 
 .seminar-overview {
@@ -169,6 +199,18 @@ footer {
     .logo {
         max-width: 500px; /* Adjust for smaller screens */
     }
+
+    .header-text h1 {
+        font-size: 2rem;
+    }
+
+    .header-text h2 {
+        font-size: 1.2rem;
+    }
+
+    .header-logo {
+        height: 80px; /* Smaller size for tablets and mobile */
+    }
 }
 
 @media (max-width: 480px) {
@@ -196,5 +238,9 @@ footer {
 
     .logo {
         max-width: 300px; /* Adjust for smaller screens */
+    }
+
+    .header-logo {
+        height: 60px; /* Even smaller for mobile phones */
     }
 }
