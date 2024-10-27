@@ -242,3 +242,49 @@ footer {
         height: 60px; /* Even smaller for mobile phones */
     }
 }
+
+.archived-seminars {
+    padding: 1em;
+    background-color: #fff;
+    margin: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.archive-item {
+    margin-bottom: 1em;
+}
+
+.archive-header {
+    background-color: #e9ecef;
+    padding: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.archive-header h3 {
+    margin: 0;
+    color: #333;
+}
+
+.toggle-icon {
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.archive-content {
+    background-color: #f8f9fa;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.archive-content .seminar {
+    margin: 1em;
+}
