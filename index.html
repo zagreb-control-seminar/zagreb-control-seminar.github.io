@@ -27,7 +27,7 @@
         </div>
 
         <div class="seminar-schedule">
-            <h3>Friday, TBD Nov, 16:00 - 18:00</h3>
+            <h3>Friday, TBD Dec, 16:00 - 18:00</h3>
             <h3>Grey Hall, Faculty of Electrical Engineering and Computing, Zagreb</h3>           
             <div class="seminar">
                 <p><strong>Control theory topic</strong></p>
@@ -49,7 +49,12 @@
             <h2>Archived Seminars</h2>
             <div class="archive-item">
                 <div class="archive-header" onclick="toggleArchive(this)">
-                    <h3>Friday, 25 Oct 2024, Control in Automotive applications</h3>
+                    <div class="archive-title">
+                        <h3>Friday, 25 Oct 2024, Control in Automotive applications</h3>
+                        <button class="gallery-button" onclick="openGallery(event, '25-oct')">
+                            <span class="gallery-icon">🖼️</span> View Photos
+                        </button>
+                    </div>
                     <span class="toggle-icon">▼</span>
                 </div>
                 <div class="archive-content">
@@ -109,6 +114,58 @@
                 icon.textContent = '▲';
             }
         }
+    </script>
+
+    <div id="photoGallery" class="photo-gallery">
+        <span class="close-gallery">&times;</span>
+        <div class="gallery-content">
+            <button class="prev-photo">❮</button>
+            <img id="galleryImage" src="" alt="Event Photo">
+            <button class="next-photo">❯</button>
+        </div>
+    </div>
+
+    <script>
+        const galleryPhotos = {
+            '25-oct': [
+                'img/events_photos/25_10_24_event/1.jpeg',
+                'img/events_photos/25_10_24_event/2.jpeg',
+                'img/events_photos/25_10_24_event/3.jpeg',
+                'img/events_photos/25_10_24_event/4.jpeg',
+                'img/events_photos/25_10_24_event/5.jpeg',
+                'img/events_photos/25_10_24_event/6.jpeg',
+                'img/events_photos/25_10_24_event/7.jpeg',
+            ]
+        };
+
+        let currentPhotoIndex = 0;
+        let currentEventPhotos = [];
+
+        function openGallery(event, eventDate) {
+            event.stopPropagation(); // Prevent archive toggle
+            currentEventPhotos = galleryPhotos[eventDate];
+            currentPhotoIndex = 0;
+            document.getElementById('photoGallery').style.display = 'block';
+            showPhoto(currentPhotoIndex);
+        }
+
+        function showPhoto(index) {
+            document.getElementById('galleryImage').src = currentEventPhotos[index];
+        }
+
+        document.querySelector('.close-gallery').onclick = function() {
+            document.getElementById('photoGallery').style.display = 'none';
+        };
+
+        document.querySelector('.prev-photo').onclick = function() {
+            currentPhotoIndex = (currentPhotoIndex - 1 + currentEventPhotos.length) % currentEventPhotos.length;
+            showPhoto(currentPhotoIndex);
+        };
+
+        document.querySelector('.next-photo').onclick = function() {
+            currentPhotoIndex = (currentPhotoIndex + 1) % currentEventPhotos.length;
+            showPhoto(currentPhotoIndex);
+        };
     </script>
 </body>
 </html>
