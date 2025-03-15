@@ -244,6 +244,16 @@ footer {
     .header-logo {
         height: 100px; /* Adjusted for smaller screens */
     }
+
+    .toggle-icon {
+        right: auto; /* Remove right positioning */
+        left: 1em;   /* Position on the left side */
+    }
+    
+    /* Add some padding to the archive title to prevent text overlap with arrow */
+    .archive-title {
+        padding-left: 2.5em;
+    }
 }
 
 @media (max-width: 480px) {
