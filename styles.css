@@ -286,6 +286,22 @@ footer {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.archived-seminars h2 {
+    color: var(--text-primary);  /* Use our text color variable */
+    margin-bottom: 1em;
+    font-size: 1.75rem;
+}
+
+/* If the above doesn't work, we can try a more specific selector */
+.page-container .archived-seminars h2 {
+    color: var(--text-primary);
+}
+
+/* Or if we want to be absolutely certain */
+.archived-seminars > h2 {
+    color: var(--text-primary) !important;  /* Use !important as a last resort */
+}
+
 .archive-item {
     margin-bottom: 1em;
 }
@@ -438,4 +454,27 @@ footer {
     margin-right: 8px;
     height: 24px;
     width: 24px;
+}
+
+/* Make presentation titles slightly smaller but keep gold color */
+.seminar > p strong {
+    font-size: 1.35rem;  /* Reduced from 1.5rem */
+    display: block;
+    margin-bottom: 1rem;
+    color: var(--accent-gold);  /* Restored gold color */
+}
+
+/* Make presenter names slightly smaller but keep gold color */
+.seminar-text p strong {
+    font-size: 1.2rem;  /* Reduced from 1.3rem */
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: var(--accent-gold);  /* Restored gold color */
+}
+
+/* Keep regular text size */
+.seminar-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
 }
