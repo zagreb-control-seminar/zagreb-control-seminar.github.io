@@ -373,3 +373,40 @@ footer {
 .prev-photo:hover, .next-photo:hover {
     background: rgba(255, 255, 255, 0.4);
 }
+
+.action-buttons {
+    display: flex;
+    flex-direction: row;  /* Make buttons display in a row */
+    gap: 20px;
+    justify-content: center;  /* Center buttons horizontally */
+    align-items: center;  /* Center buttons vertically */
+    margin: 20px auto;  /* Add margin and center the container */
+}
+
+.register-link, .social-link {
+    display: inline-flex;  /* Use inline-flex for better alignment */
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    height: 48px;  /* Fixed height for both buttons */
+    box-sizing: border-box;
+}
+
+.register-link {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.social-link {
+    background-color: #0077b5;
+    color: #fff;
+}
+
+.social-icon {
+    margin-right: 8px;
+    height: 24px;
+    width: 24px;
+}
