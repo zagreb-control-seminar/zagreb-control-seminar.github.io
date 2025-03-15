@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-size: 16px; /* Base font size */
+    font-size: 18px; /* Increased from 16px */
 }
 
 html {
@@ -78,9 +78,9 @@ header {
 }
 
 .seminar-overview {
-    padding: 1em;
+    padding: 2em 3em; /* Increased padding */
     background-color: var(--card-bg);
-    margin: 1em;
+    margin: 2em;      /* Increased margin */
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -89,10 +89,10 @@ header {
 }
 
 .seminar-overview p {
-    margin: 10px 0;
-    color: var(--text-secondary);
-    text-align: justify;
-    font-size: 1.25rem; /* Responsive overview font size */
+    font-size: 1.3rem;     /* Increased from 1.2rem */
+    line-height: 1.7;      /* Slightly increased line height for better readability */
+    margin-bottom: 1.4em;  /* Adjusted margin to match new size */
+    text-align: justify;   /* Keep text justified */
 }
 
 .register-link {
@@ -161,7 +161,8 @@ header {
     margin: 10px 0; /* Increase margin for better spacing */
     color: var(--text-secondary);
     text-align: justify;
-    font-size: 1.1rem; /* Slightly smaller font for more text */
+    font-size: 1.2rem;
+    line-height: 1.6;
 }
 
 .seminar-text strong {
@@ -216,8 +217,8 @@ footer {
     }
 
     .seminar-overview {
-        margin: 0.5em;
-        padding: 0.5em;
+        padding: 1.5em 2em; /* Slightly smaller padding on mobile */
+        margin: 1em;       /* Slightly smaller margin on mobile */
     }
 
     .seminar-schedule {
@@ -253,6 +254,15 @@ footer {
     
     .archive-title {
         padding-left: 2.5em;
+    }
+
+    body {
+        font-size: 16px; /* Slightly smaller base font on mobile */
+    }
+
+    .seminar-overview p {
+        font-size: 1.2rem;
+        line-height: 1.6;
     }
 }
 
@@ -443,9 +453,9 @@ footer {
     display: inline-flex;  /* Use inline-flex for better alignment */
     align-items: center;
     justify-content: center;
-    padding: 12px 24px;
+    padding: 0.8em 1.6em;
     border-radius: 4px;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     text-decoration: none;
     height: 48px;  /* Fixed height for both buttons */
     box-sizing: border-box;
@@ -488,4 +498,13 @@ footer {
     font-size: 1.1rem;
     line-height: 1.6;
     color: var(--text-secondary);
+}
+
+/* Adjust headings sizes */
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
 }
