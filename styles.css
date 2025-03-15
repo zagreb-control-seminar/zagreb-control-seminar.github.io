@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #282828;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -21,19 +21,25 @@ html {
 
 header {
     background-color: #333;
-    color: #fff;
-    padding: 1em 0;
-    text-align: center;
-    font-size: 2rem;
+    width: 100%;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
 }
 
 .header-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1em;
+    width: 100%;
+    max-width: none; /* Remove max-width constraint */
+    margin: 0;
+    padding: 0;
+}
+
+.header-banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* This ensures the image covers the full width */
+    margin: 0;
+    padding: 0;
 }
 
 .header-text {
@@ -57,7 +63,7 @@ header {
 
 .seminar-overview {
     padding: 1em;
-    background-color: #fff;
+    background-color: #9f9f9f;
     margin: 1em;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -66,7 +72,7 @@ header {
 
 .seminar-overview p {
     margin: 10px 0;
-    color: #000;
+    color: #282828;
     text-align: justify;
     font-size: 1.25rem; /* Responsive overview font size */
 }
@@ -88,14 +94,14 @@ header {
 
 .seminar-schedule {
     padding: 1em;
-    background-color: #fff;
+    background-color: #afafaf;
     margin: 1em;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .seminar {
-    background-color: #e9ecef;
+    background-color: #fff;
     padding: 1em;
     margin-bottom: 1em;
     border-radius: 4px;
@@ -104,7 +110,7 @@ header {
 
 .seminar h3 {
     margin-top: 0;
-    color: #333;
+    color: #afafaf;
     font-size: 1.75rem; /* Responsive seminar title font size */
 }
 
@@ -245,7 +251,7 @@ footer {
 
 .archived-seminars {
     padding: 1em;
-    background-color: #fff;
+    background-color: #9f9f9f;
     margin: 1em;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
