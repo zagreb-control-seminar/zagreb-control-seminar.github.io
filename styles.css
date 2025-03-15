@@ -246,11 +246,11 @@ footer {
     }
 
     .toggle-icon {
-        right: auto; /* Remove right positioning */
-        left: 1em;   /* Position on the left side */
+        right: auto;
+        left: 1em;
+        color: #ffffff; /* Ensure arrows stay white on mobile too */
     }
     
-    /* Add some padding to the archive title to prevent text overlap with arrow */
     .archive-title {
         padding-left: 2.5em;
     }
@@ -337,6 +337,7 @@ footer {
     right: 1em;
     top: 50%;
     transform: translateY(-50%);
+    color: #ffffff; /* Make arrows white */
 }
 
 .archive-content {
